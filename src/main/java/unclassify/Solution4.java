@@ -23,24 +23,41 @@ import java.util.Map;
 //    著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 public class Solution4 {
 
-    // 空间换时间，先构造hashmap，然后使用hashmap遍历数组
-    // 5ms/40.2MB
+//    // 空间换时间，先构造hashmap，然后使用hashmap遍历数组
+//    // 5ms/40.2MB
+//    public int[] twoSum(int[] numbers, int target) {
+//        // key:数组元素值   value:数组下标
+//        Map<Integer, Integer> memo = new HashMap<>();
+//        for(int i=0; i<numbers.length; i++) {
+//            memo.put(numbers[i], i+1);
+//        }
+//        // 遍历数组，寻找符合条件的数组下标
+//        for(int i=0; i<numbers.length; i++) {
+//            if(memo.containsKey(target-numbers[i])) {
+//                return new int[]{i+1, memo.get(target-numbers[i])};
+//            }
+//        }
+//        // 默认值
+//        return new int[0];
+//    }
+
+    // 数组有序，利用双指针
+    // 左右指针元素和大于target，右指针--
+    // 左右指针元素和小于target，左指针++
+    // 左右指针元素和等于target，返回left+1与right+1
+    // 1ms/40MB
     public int[] twoSum(int[] numbers, int target) {
-        // key:数组元素值   value:数组下标
-        Map<Integer, Integer> memo = new HashMap<>();
-        for(int i=0; i<numbers.length; i++) {
-            memo.put(numbers[i], i+1);
-        }
-        // 遍历数组，寻找符合条件的数组下标
-        for(int i=0; i<numbers.length; i++) {
-            if(memo.containsKey(target-numbers[i])) {
-                return new int[]{i+1, memo.get(target-numbers[i])};
+        for(int left=0, right=numbers.length-1; left<right;) {
+            if(numbers[left]+numbers[right] == target) {
+                return new int[]{left+1, right+1};
+            }else if(numbers[left]+numbers[right] < target) {
+                left++;
+            }else {
+                right--;
             }
         }
-        // 默认值
         return new int[0];
     }
-
 
 
     public static void main(String[] args) {
