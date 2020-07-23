@@ -37,12 +37,12 @@ public class Solution5 {
                 memo[i][j] = grid[i][j];
                 // 未到达边界时
                 if(i >= 1 && j >= 1) {
-                    // memo累加右下中较小的值
+                    // memo累加左上中较小的值
                     memo[i][j] += Math.min(memo[i-1][j], memo[i][j-1]);
                 }else if(i >= 1 && j == 0) { // 到达右边界时
-                    memo[i][j] += memo[i-1][j]; // memo累加下移最小路径和
+                    memo[i][j] += memo[i-1][j]; // memo累加上方最小路径和
                 }else if(i == 0 && j >= 1) { // 到达下边界时
-                    memo[i][j] += memo[i][j-1]; // memo累加右移最小路径和
+                    memo[i][j] += memo[i][j-1]; // memo累加左侧最小路径和
                 }
             }
         }
