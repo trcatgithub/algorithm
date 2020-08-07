@@ -1,5 +1,7 @@
 package tree;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 //给定两个二叉树，编写一个函数来检验它们是否相同。
@@ -39,42 +41,74 @@ import java.util.Stack;
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 // 递归dfs 0ms/37.6MB
 // 非递归dfs 1ms/37.5MB
+// bfs     0ms/37.5MB
 public class Solution7 {
 
-    // 非递归dfs
-    // 1ms/37.5MB
+    // 利用queue进行bfs（逻辑与非递归dfs类似，只是将Stack换成了Queue）
+    // 0ms/37.5MB
     public boolean isSameTree(TreeNode p, TreeNode q) {
-        // 边界条件
         if(p == null && q == null) {
             return true;
         }else if((p == null && q != null) || (p != null && q == null)) {
             return false;
         }
-        // 利用stack进行dfs
-        Stack<TreeNode> sp = new Stack<>();
-        sp.push(p);
-        Stack<TreeNode> sq = new Stack<>();
-        sq.push(q);
-        while(!sp.isEmpty() && !sq.isEmpty()) {
-            TreeNode tp = sp.pop();
-            TreeNode tq = sq.pop();
-            // 只有一个节点为null时，返回false
-            if((tp == null && tq != null) || (tp != null && tq == null)) {
+        Queue<TreeNode> pQueue = new LinkedList<>();
+        pQueue.offer(p);
+        Queue<TreeNode> qQueue = new LinkedList<>();
+        qQueue.offer(q);
+
+        while(!pQueue.isEmpty() && !qQueue.isEmpty()) {
+            TreeNode tempP = pQueue.poll();
+            TreeNode tempQ = qQueue.poll();
+            if((tempP == null && tempQ != null) || (tempP != null && tempQ == null)) {
                 return false;
-            }else if(tp != null && tq != null) {
-                // 两个节点val不相等时，返回null
-                if(tp.val != tq.val) {
+            }else if(tempP != null && tempQ != null) {
+                if(tempP.val != tempQ.val) {
                     return false;
                 }
-                // 左右节点入栈
-                sp.push(tp.left);
-                sp.push(tp.right);
-                sq.push(tq.left);
-                sq.push(tq.right);
+                pQueue.offer(tempP.left);
+                pQueue.offer(tempP.right);
+                qQueue.offer(tempQ.left);
+                qQueue.offer(tempQ.right);
             }
         }
         return true;
     }
+
+//    // 非递归dfs
+//    // 1ms/37.5MB
+//    public boolean isSameTree(TreeNode p, TreeNode q) {
+//        // 边界条件
+//        if(p == null && q == null) {
+//            return true;
+//        }else if((p == null && q != null) || (p != null && q == null)) {
+//            return false;
+//        }
+//        // 利用stack进行dfs
+//        Stack<TreeNode> sp = new Stack<>();
+//        sp.push(p);
+//        Stack<TreeNode> sq = new Stack<>();
+//        sq.push(q);
+//        while(!sp.isEmpty() && !sq.isEmpty()) {
+//            TreeNode tp = sp.pop();
+//            TreeNode tq = sq.pop();
+//            // 只有一个节点为null时，返回false
+//            if((tp == null && tq != null) || (tp != null && tq == null)) {
+//                return false;
+//            }else if(tp != null && tq != null) {
+//                // 两个节点val不相等时，返回false
+//                if(tp.val != tq.val) {
+//                    return false;
+//                }
+//                // 左右节点入栈
+//                sp.push(tp.left);
+//                sp.push(tp.right);
+//                sq.push(tq.left);
+//                sq.push(tq.right);
+//            }
+//        }
+//        return true;
+//    }
 
 //    public boolean isSameTree(TreeNode p, TreeNode q) {
 //        return dfs(p, q);
