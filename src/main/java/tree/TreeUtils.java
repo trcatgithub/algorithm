@@ -1,7 +1,8 @@
 package tree;
 
-import java.util.ArrayList;
-import java.util.List;
+import sun.jvm.hotspot.utilities.IntegerEnum;
+
+import java.util.*;
 
 public class TreeUtils {
     public static TreeNode generateTree(Integer[] nodes) {
@@ -42,5 +43,39 @@ public class TreeUtils {
             }
         }
         return root;
+    }
+
+    public static void printTree(TreeNode root) {
+        if(root == null) {
+            System.out.println("[]");
+        }
+        List<Integer> all = new ArrayList<>();
+        List<TreeNode> nodes = new ArrayList<>();
+        nodes.add(root);
+
+        while(true) {
+            List<TreeNode> nextLevel = new ArrayList<>();
+            List<Integer> vals = new ArrayList<>();
+            boolean notAllNull = false;
+            for(TreeNode node : nodes) {
+                if(node == null) {
+                    vals.add(null);
+                    nextLevel.add(null);
+                    nextLevel.add(null);
+                }else {
+                    vals.add(node.val);
+                    notAllNull = true;
+                    nextLevel.add(node.left);
+                    nextLevel.add(node.right);
+                }
+            }
+            if(notAllNull) {
+                nodes = nextLevel;
+                all.addAll(vals);
+            }else {
+                break;
+            }
+        }
+        System.out.println(all.toString());
     }
 }
