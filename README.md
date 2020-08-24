@@ -33,6 +33,7 @@
 [343. 整数拆分](https://leetcode-cn.com/problems/integer-break)(dp/Solution7)  
 [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence)(unclassify/Solution7)  
 [415. 字符串相加](https://leetcode-cn.com/problems/add-strings)(unclassify/Solution8)  
+[459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern)(unclassify/Solution15)  
 [529. 扫雷游戏](https://leetcode-cn.com/problems/minesweeper)(dfs/Solution4)  
 [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings)(unclassify/Solution13)  
 [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings)(unclassify/Solution11)  
