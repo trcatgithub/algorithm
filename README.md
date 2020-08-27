@@ -29,6 +29,7 @@
 [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)(dp/Solution2)  
 [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change)(dp/Solution9)  
 [329. 矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix)(dfs/Solution1)  
+[332. 重新安排行程](https://leetcode-cn.com/problems/reconstruct-itinerary)(graph/Solution2)  
 [336. 回文对](https://leetcode-cn.com/problems/palindrome-pairs)(unclassify/Solution9)  
 [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii)(tree/Solution6)  
 [343. 整数拆分](https://leetcode-cn.com/problems/integer-break)(dp/Solution7)  
