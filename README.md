@@ -4,6 +4,7 @@
 [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)(unclassify/Solution16)  
 [19. 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)(list/Solution1)  
 [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses)(stack/Solution1)  
+[24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs)(list/Solution3)  
 [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position)(search/Solution1)  
 [43. 字符串相乘](https://leetcode-cn.com/problems/multiply-strings)(unclassify/Solution12)  
 [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum)(dp/Solution5)  
