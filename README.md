@@ -55,4 +55,6 @@
 [面试题 17.13. 恢复空格](https://leetcode-cn.com/problems/re-space-lcci)(dp/Solution1)  
 
 [剑指 Offer 11. 旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof)(search/Solution2)  
+[剑指 Offer 20. 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof)(unclassify/Solution19)  
 [剑指 Offer 51. 数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof)(sort/Solution1)  
+
