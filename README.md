@@ -51,6 +51,7 @@
 [912. 排序数组](https://leetcode-cn.com/problems/sort-an-array)(sort/(HeapSort/MergeSort/QuickSort))  
 [1025. 除数博弈](https://leetcode-cn.com/problems/divisor-game)(dp/Solution6)  
 [1300. 转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target)(unclassify/Solution1)  
+[1379. 找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)(tree/Solution12)  
 
 [面试题 08.03. 魔术索引](https://leetcode-cn.com/problems/magic-index-lcci)(search/Solution3)  
 [面试题 16.11. 跳水板](https://leetcode-cn.com/problems/diving-board-lcci)(unclassify/Solution2)  
