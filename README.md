@@ -29,6 +29,7 @@
 [171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)(unclassify/Solution6)  
 [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square)(dp/Solution8)  
 [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree)(tree/Solution2)  
+[257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths)(tree/Solution11)  
 [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)(dp/Solution2)  
 [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change)(dp/Solution9)  
 [329. 矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix)(dfs/Solution1)  
