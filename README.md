@@ -39,6 +39,7 @@
 [336. 回文对](https://leetcode-cn.com/problems/palindrome-pairs)(unclassify/Solution9)  
 [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii)(tree/Solution6)  
 [343. 整数拆分](https://leetcode-cn.com/problems/integer-break)(dp/Solution7)  
+[347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements)(sort/Solution2)  
 [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence)(unclassify/Solution7)  
 [415. 字符串相加](https://leetcode-cn.com/problems/add-strings)(unclassify/Solution8)  
 [459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern)(unclassify/Solution15)  
