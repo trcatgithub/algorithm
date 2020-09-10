@@ -7,6 +7,7 @@
 [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs)(list/Solution3)  
 [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position)(search/Solution1)  
 [39. 组合总和](https://leetcode-cn.com/problems/combination-sum)(backtracking/Solution3)  
+[40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii)(backtracking/Solution4)  
 [43. 字符串相乘](https://leetcode-cn.com/problems/multiply-strings)(unclassify/Solution12)  
 [51. N 皇后](https://leetcode-cn.com/problems/n-queens)(backtracking/Solution1)  
 [60. 第k个排列](https://leetcode-cn.com/problems/permutation-sequence)(unclassify/Solution20)   
