@@ -50,6 +50,7 @@
 [486. 预测赢家](https://leetcode-cn.com/problems/repeated-substring-pattern)([dp/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution10.java))  
 [529. 扫雷游戏](https://leetcode-cn.com/problems/minesweeper)([dfs/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution4.java))  
 [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)([unclassify/Solution18](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution18.java))  
+[637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree)([tree/Solution14](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution14.java))  
 [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings)([unclassify/Solution13](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution13.java))  
 [657. 机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin)([unclassify/Solution17](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution17.java))  
 [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings)([unclassify/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution11.java))  
