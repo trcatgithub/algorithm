@@ -63,6 +63,7 @@
 [1379. 找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)([tree/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution12.java))  
 
 [面试题 08.03. 魔术索引](https://leetcode-cn.com/problems/magic-index-lcci)([search/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution3.java))  
+[面试题 16.01. 交换数字](https://leetcode-cn.com/problems/swap-numbers-lcci)([bit/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/bit/Solution1.java))  
 [面试题 16.11. 跳水板](https://leetcode-cn.com/problems/diving-board-lcci)([unclassify/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution2.java))  
 [面试题 17.13. 恢复空格](https://leetcode-cn.com/problems/re-space-lcci)([dp/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution1.java))  
 
