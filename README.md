@@ -6,6 +6,7 @@
 [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses)([stack/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution1.java))  
 [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs)([list/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution3.java))  
 [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position)([search/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution1.java))  
+[37. 解数独](https://leetcode-cn.com/problems/sudoku-solver)([backtracking/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution6.java))  
 [39. 组合总和](https://leetcode-cn.com/problems/combination-sum)([backtracking/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution3.java))  
 [40. 组合总和 II](https://leetcode-cn.com/problems/combination-sum-ii)([backtracking/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution4.java))  
 [43. 字符串相乘](https://leetcode-cn.com/problems/multiply-strings)([unclassify/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution12.java))  
