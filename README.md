@@ -36,6 +36,7 @@
 [171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)([unclassify/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution6.java))  
 [216. 组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii)([backtracking/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution5.java))  
 [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square)([dp/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution8.java))  
+[226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree)([tree/Solution15](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution15.java))  
 [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree)([tree/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution2.java))  
 [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths)([tree/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution11.java))  
 [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)([dp/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution2.java))  
