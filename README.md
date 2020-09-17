@@ -56,6 +56,7 @@
 [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree)([tree/Solution14](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution14.java))  
 [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings)([unclassify/Solution13](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution13.java))  
 [657. 机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin)([unclassify/Solution17](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution17.java))  
+[685. 冗余连接 II](https://leetcode-cn.com/problems/redundant-connection-ii)([graph/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/graph/Solution3.java))  
 [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings)([unclassify/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution11.java))  
 [733. 图像渲染](https://leetcode-cn.com/problems/flood-fill)([dfs/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution3.java))  
 [841. 钥匙和房间](https://leetcode-cn.com/problems/flood-fill)([dfs/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution5.java))  
