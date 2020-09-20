@@ -15,6 +15,7 @@
 [60. 第k个排列](https://leetcode-cn.com/problems/permutation-sequence)([unclassify/Solution20](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution20.java))   
 [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum)([dp/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution5.java))  
 [77. 组合](https://leetcode-cn.com/problems/combinations)([backtracking/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution2.java))  \
+[78. 子集](https://leetcode-cn.com/problems/subsets)([backtracking/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution8.java))  
 [79. 单词搜索](https://leetcode-cn.com/problems/word-search)([dfs/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution6.java))  \
 [93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses)([unclassify/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution10.java))  
 [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)([tree/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution10.java))  
