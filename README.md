@@ -57,6 +57,7 @@
 [529. 扫雷游戏](https://leetcode-cn.com/problems/minesweeper)([dfs/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution4.java))  
 [538. 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree)([tree/Solution18](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution18.java))  
 [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)([unclassify/Solution18](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution18.java))  
+[617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees)([tree/Solution20](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution20.java))  
 [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree)([tree/Solution14](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution14.java))  
 [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings)([unclassify/Solution13](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution13.java))  
 [654. 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree)([tree/Solution17](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution17.java))  
