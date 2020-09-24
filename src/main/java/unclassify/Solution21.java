@@ -24,27 +24,49 @@ import java.util.Arrays;
 //链接：https://leetcode-cn.com/problems/sort-colors
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 public class Solution21 {
-    // 遍历一次数组，遇到0时，将其交换到数组起始位置，遇到2时，将其交换到数组末尾
-    // 0ms/37.5MB
+
+    // 不进行数组复制，只交换head，tail与当前位置的元素
+    // 0ms/37.4MB
     public void sortColors(int[] nums) {
-        // 尾部指针head左侧元素都是1
         int head = 0;
-        // 尾部指针tail右侧元素都是2
         int tail = nums.length-1;
-        for(int i=0; i<nums.length; i++) {
-            // 将0交换到数组头部
+        for(int i=0; i<nums.length;) {
             if(nums[i] == 0 && i > head) {
-                System.arraycopy(nums, head, nums, head+1, i-head);
+                nums[i] = nums[head];
                 nums[head] = 0;
                 head++;
-            }else if(nums[i] == 2 && i < tail) { // 将2交换到数组尾部
-                System.arraycopy(nums, i+1, nums, i, tail-i);
+            }else if(nums[i] == 2 && i < tail) {
+                nums[i] = nums[tail];
                 nums[tail] = 2;
                 tail--;
-                i--;
+            }else {
+                i++;
             }
         }
     }
+
+//    // 遍历一次数组，遇到0时，将其交换到数组起始位置，遇到2时，将其交换到数组末尾
+//    // 复制数组
+//    // 0ms/37.5MB
+//    public void sortColors(int[] nums) {
+//        // 尾部指针head左侧元素都是1
+//        int head = 0;
+//        // 尾部指针tail右侧元素都是2
+//        int tail = nums.length-1;
+//        for(int i=0; i<nums.length; i++) {
+//            // 将0交换到数组头部
+//            if(nums[i] == 0 && i > head) {
+//                System.arraycopy(nums, head, nums, head+1, i-head);
+//                nums[head] = 0;
+//                head++;
+//            }else if(nums[i] == 2 && i < tail) { // 将2交换到数组尾部
+//                System.arraycopy(nums, i+1, nums, i, tail-i);
+//                nums[tail] = 2;
+//                tail--;
+//                i--;
+//            }
+//        }
+//    }
 
 //    // 计算0与1的个数，剩余部分都是2
 //    // 0ms/37.2MB
