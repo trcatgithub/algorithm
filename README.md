@@ -58,6 +58,7 @@
 [415. 字符串相加](https://leetcode-cn.com/problems/add-strings)([unclassify/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution8.java))  
 [459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern)([unclassify/Solution15](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution15.java))  
 [486. 预测赢家](https://leetcode-cn.com/problems/repeated-substring-pattern)([dp/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution10.java))  
+[501. 二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree)([tree/Solution24](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution24.java))  
 [529. 扫雷游戏](https://leetcode-cn.com/problems/minesweeper)([dfs/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution4.java))  
 [538. 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree)([tree/Solution18](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution18.java))  
 [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)([unclassify/Solution18](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution18.java))  
