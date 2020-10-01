@@ -89,3 +89,4 @@
 [剑指 Offer 20. 表示数值的字符串](https://leetcode-cn.com/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof)([unclassify/Solution19](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution19.java))  
 [剑指 Offer 51. 数组中的逆序对](https://leetcode-cn.com/problems/shu-zu-zhong-de-ni-xu-dui-lcof)([sort/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution1.java))  
 
+[LCP 19. 秋叶收藏集](https://leetcode-cn.com/problems/UlBDOe)([dp/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution11.java))  
