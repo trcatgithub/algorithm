@@ -3,6 +3,7 @@
 [2. 两数相加](https://leetcode-cn.com/problems/add-two-numbers)([list/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution4.java))  
 [12. 整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman)([unclassify/Solution14](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution14.java))  
 [17. 电话号码的字母组合](https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number)([unclassify/Solution16](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution16.java))  
+[18. 四数之和](https://leetcode-cn.com/problems/4sum)([backtracking/Solution9](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution9.java))  
 [19. 删除链表的倒数第N个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list)([list/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution1.java))  
 [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses)([stack/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution1.java))  
 [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs)([list/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution3.java))  
