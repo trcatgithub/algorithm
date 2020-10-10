@@ -26,4 +26,23 @@ public class ListUtils {
         }
         return root;
     }
+
+    public static ListNode generateList(Integer[] vals, int pos) {
+        if(vals == null || vals.length == 0) {
+            return null;
+        }
+        ListNode[] memo = new ListNode[vals.length];
+        ListNode root = new ListNode(vals[0]);
+        memo[0] = root;
+        ListNode tail = root;
+        for(int i=1; i<vals.length; i++) {
+            tail.next = new ListNode(vals[i]);
+            tail = tail.next;
+            memo[i] = tail;
+        }
+        if(pos > -1) {
+            tail.next = memo[pos];
+        }
+        return root;
+    }
 }
