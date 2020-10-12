@@ -1,49 +1,76 @@
 package tree;
 
-import sun.jvm.hotspot.utilities.IntegerEnum;
-
 import java.util.*;
 
 public class TreeUtils {
+
     public static TreeNode generateTree(Integer[] nodes) {
         if(nodes == null || nodes.length == 0) {
             return null;
         }
-        // {1,2,null,3,null,4,null,5};
         TreeNode root = new TreeNode(nodes[0]);
-        List<TreeNode> current = new ArrayList<>();
-        current.add(root);
-        int pos = 1;
-        while(pos < nodes.length) {
-            List<TreeNode> nextLevel = new ArrayList<>();
-            for(TreeNode node : current) {
-                if(nodes[pos] != null) {
-                    node.left = new TreeNode(nodes[pos++]);
-                    nextLevel.add(node.left);
-                }else {
-                    pos++;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        for(int pos=1; pos<nodes.length;) {
+            int size = queue.size();
+            for(int i=0; i<size; i++) {
+                TreeNode current = queue.poll();
+                if(pos < nodes.length && nodes[pos] != null) {
+                    current.left = new TreeNode(nodes[pos]);
+                    queue.offer(current.left);
                 }
-                if(pos == nodes.length) {
-                    return root;
+                pos++;
+                if(pos < nodes.length && nodes[pos] != null) {
+                    current.right = new TreeNode(nodes[pos]);
+                    queue.offer(current.right);
                 }
-                if(nodes[pos] != null) {
-                    node.right = new TreeNode(nodes[pos++]);
-                    nextLevel.add(node.right);
-                }else {
-                    pos++;
-                }
-                if(pos == nodes.length) {
-                    return root;
-                }
+                pos++;
             }
-            if(nextLevel.size() > 0) {
-                current = nextLevel;
-            }else {
-                break;
-            }
+
         }
         return root;
     }
+
+//    // backup-2020/10/12
+//    public static TreeNode generateTree(Integer[] nodes) {
+//        if(nodes == null || nodes.length == 0) {
+//            return null;
+//        }
+//        // {1,2,null,3,null,4,null,5};
+//        TreeNode root = new TreeNode(nodes[0]);
+//        List<TreeNode> current = new ArrayList<>();
+//        current.add(root);
+//        int pos = 1;
+//        while(pos < nodes.length) {
+//            List<TreeNode> nextLevel = new ArrayList<>();
+//            for(TreeNode node : current) {
+//                if(nodes[pos] != null) {
+//                    node.left = new TreeNode(nodes[pos++]);
+//                    nextLevel.add(node.left);
+//                }else {
+//                    pos++;
+//                }
+//                if(pos == nodes.length) {
+//                    return root;
+//                }
+//                if(nodes[pos] != null) {
+//                    node.right = new TreeNode(nodes[pos++]);
+//                    nextLevel.add(node.right);
+//                }else {
+//                    pos++;
+//                }
+//                if(pos == nodes.length) {
+//                    return root;
+//                }
+//            }
+//            if(nextLevel.size() > 0) {
+//                current = nextLevel;
+//            }else {
+//                break;
+//            }
+//        }
+//        return root;
+//    }
 
     public static void printTree(TreeNode root) {
         if(root == null) {
