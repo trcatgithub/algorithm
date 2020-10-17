@@ -14,6 +14,7 @@
 [43. 字符串相乘](https://leetcode-cn.com/problems/multiply-strings)([unclassify/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution12.java))  
 [47. 全排列 II](https://leetcode-cn.com/problems/permutations-ii)([backtracking/Solution7](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution7.java))  
 [51. N 皇后](https://leetcode-cn.com/problems/n-queens)([backtracking/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution1.java))  
+[52. N皇后 II](https://leetcode-cn.com/problems/n-queens-ii)([backtracking/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution11.java))  
 [60. 第k个排列](https://leetcode-cn.com/problems/permutation-sequence)([unclassify/Solution20](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution20.java))   
 [64. 最小路径和](https://leetcode-cn.com/problems/minimum-path-sum)([dp/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution5.java))  
 [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors)([unclassify/Solution21](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution21.java))   
