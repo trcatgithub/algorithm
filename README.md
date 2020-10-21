@@ -87,6 +87,7 @@
 [841. 钥匙和房间](https://leetcode-cn.com/problems/flood-fill)([dfs/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution5.java))  
 [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare)([stack/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution2.java))  
 [912. 排序数组](https://leetcode-cn.com/problems/sort-an-array)(sort/([HeapSort](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/HeapSort.java)/[MergeSort](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/MergeSort.java)/[QuickSort](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/QuickSort.java))))  
+[925. 长按键入](https://leetcode-cn.com/problems/long-pressed-name)([unclassify/Solution26](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution26.java))  
 [968. 监控二叉树](https://leetcode-cn.com/problems/binary-tree-cameras)([tree/Solution19](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution19.java))  
 [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array)([sort/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution3.java))  
 [1002. 查找常用字符](https://leetcode-cn.com/problems/find-common-characters)([unclassify/Solution25](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution25.java))  
