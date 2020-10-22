@@ -83,6 +83,7 @@
 [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings)([unclassify/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution11.java))  
 [701. 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree)([tree/Solution27](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution27.java))  
 [733. 图像渲染](https://leetcode-cn.com/problems/flood-fill)([dfs/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution3.java))  
+[763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels)([unclassify/Solution27](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution27.java))  
 [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones)([unclassify/Solution22](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution22.java))  
 [841. 钥匙和房间](https://leetcode-cn.com/problems/flood-fill)([dfs/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution5.java))  
 [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare)([stack/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution2.java))  
