@@ -93,6 +93,7 @@
 [968. 监控二叉树](https://leetcode-cn.com/problems/binary-tree-cameras)([tree/Solution19](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution19.java))  
 [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array)([sort/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution3.java))  
 [1002. 查找常用字符](https://leetcode-cn.com/problems/find-common-characters)([unclassify/Solution25](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution25.java))  
+[1024. 视频拼接](https://leetcode-cn.com/problems/video-stitching)([unclassify/Solution28](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution28.java))  
 [1025. 除数博弈](https://leetcode-cn.com/problems/divisor-game)([dp/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution6.java))  
 [1300. 转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target)([unclassify/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution1.java))  
 [1379. 找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)([tree/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution12.java))  
