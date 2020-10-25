@@ -42,7 +42,7 @@ package unclassify;
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 public class Solution29 {
     // 分别计算升序与降序元素的个数，在顺序发生改变时，将其累加并与longest比较
-    // 29ms/39.5MB
+    // 3ms/39.6MB
     public int longestMountain(int[] A) {
         int longest = 0;
         int ascCount = 0;
@@ -72,8 +72,9 @@ public class Solution29 {
                     }else {// 相等
                         if(ascCount > 0 && descCount > 0) {
                             longest = Math.max(longest, ascCount+descCount);
-                            i = j-1;
                         }
+                        // 注意更新i的位置，减少重复计算
+                        i = j-1;
                         break;
                     }
                     prev = A[j];
