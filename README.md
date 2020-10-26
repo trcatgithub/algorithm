@@ -97,6 +97,7 @@
 [1024. 视频拼接](https://leetcode-cn.com/problems/video-stitching)([unclassify/Solution28](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution28.java))  
 [1025. 除数博弈](https://leetcode-cn.com/problems/divisor-game)([dp/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution6.java))  
 [1300. 转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target)([unclassify/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution1.java))  
+[1365. 有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number)([unclassify/Solution30](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution30.java))  
 [1379. 找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)([tree/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution12.java))  
 
 [面试题 08.03. 魔术索引](https://leetcode-cn.com/problems/magic-index-lcci)([search/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution3.java))  
