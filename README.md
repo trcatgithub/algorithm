@@ -113,5 +113,5 @@
 
 [LCP 19. 秋叶收藏集](https://leetcode-cn.com/problems/UlBDOe)([dp/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution11.java))  
 
-求二叉树中任意两个节点之间的距离([tree/Solution31](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution31.java))
-根据f()写一个生成0与1概率均为50%的函数F()([unclassify/Solution31](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution31.java))
+求二叉树中任意两个节点之间的距离([tree/Solution31](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution31.java))  
+根据f()写一个生成0与1概率均为50%的函数F()([unclassify/Solution31](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution31.java))  
