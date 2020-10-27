@@ -23,6 +23,7 @@ import java.util.*;
 //我们可以计算出 dist(0,1) + dist(0,2) + dist(0,3) + dist(0,4) + dist(0,5)
 //也就是 1 + 1 + 2 + 2 + 2 = 8。 因此，answer[0] = 8，以此类推。
 //说明: 1 <= N <= 10000
+// https://leetcode-cn.com/problems/sum-of-distances-in-tree/
 public class Solution32 {
 
     // 1, 将二维数组描述成链表结构，下标为当前节点，内容为当前节点的子节点

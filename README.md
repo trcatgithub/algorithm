@@ -87,7 +87,7 @@
 [733. 图像渲染](https://leetcode-cn.com/problems/flood-fill)([dfs/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution3.java))  
 [763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels)([unclassify/Solution27](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution27.java))  
 [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones)([unclassify/Solution22](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution22.java))  
-[834. 树中距离之和](https://leetcode-cn.com/problems/binary-tree-cameras)([tree/Solution32](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution32.java))  
+[834. 树中距离之和](https://leetcode-cn.com/problems/sum-of-distances-in-tree/)([tree/Solution32](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution32.java))  
 [841. 钥匙和房间](https://leetcode-cn.com/problems/flood-fill)([dfs/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution5.java))  
 [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare)([stack/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution2.java))  
 [845. 数组中的最长山脉](https://leetcode-cn.com/problems/longest-mountain-in-array)([unclassify/Solution29](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution29.java))  
