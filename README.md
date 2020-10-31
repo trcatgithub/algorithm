@@ -66,6 +66,7 @@
 [343. 整数拆分](https://leetcode-cn.com/problems/integer-break)([dp/Solution7](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution7.java))  
 [344. 反转字符串](https://leetcode-cn.com/problems/reverse-string)([unclassify/Solution24](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution24.java))  
 [347. 前 K 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements)([sort/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution2.java))  
+[381. O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed)([structure/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/structure/Solution1.java))  
 [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence)([unclassify/Solution7](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution7.java))  
 [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves)([tree/Solution16](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution16.java))  
 [415. 字符串相加](https://leetcode-cn.com/problems/add-strings)([unclassify/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution8.java))  
