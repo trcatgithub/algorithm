@@ -98,6 +98,7 @@
 [845. 数组中的最长山脉](https://leetcode-cn.com/problems/longest-mountain-in-array)([unclassify/Solution29](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution29.java))  
 [912. 排序数组](https://leetcode-cn.com/problems/sort-an-array)(sort/([HeapSort](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/HeapSort.java)/[MergeSort](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/MergeSort.java)/[QuickSort](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/QuickSort.java))))  
 [925. 长按键入](https://leetcode-cn.com/problems/long-pressed-name)([unclassify/Solution26](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution26.java))  
+[941. 有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array)([unclassify/Solution36](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution36.java))  
 [968. 监控二叉树](https://leetcode-cn.com/problems/binary-tree-cameras)([tree/Solution19](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution19.java))  
 [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array)([sort/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution3.java))  
 [1002. 查找常用字符](https://leetcode-cn.com/problems/find-common-characters)([unclassify/Solution25](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution25.java))  
