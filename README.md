@@ -62,6 +62,7 @@
 [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths)([tree/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution11.java))  
 [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)([dp/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution2.java))  
 [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change)([dp/Solution9](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution9.java))  
+[327. 区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum)([sort/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution5.java))  
 [329. 矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix)([dfs/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution1.java))  
 [332. 重新安排行程](https://leetcode-cn.com/problems/reconstruct-itinerary)([graph/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/graph/Solution2.java))  
 [336. 回文对](https://leetcode-cn.com/problems/palindrome-pairs)([unclassify/Solution9](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution9.java))  
