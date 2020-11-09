@@ -104,6 +104,7 @@
 [925. 长按键入](https://leetcode-cn.com/problems/long-pressed-name)([unclassify/Solution26](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution26.java))  
 [941. 有效的山脉数组](https://leetcode-cn.com/problems/valid-mountain-array)([unclassify/Solution36](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution36.java))  
 [968. 监控二叉树](https://leetcode-cn.com/problems/binary-tree-cameras)([tree/Solution19](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution19.java))  
+[973. 最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin)([sort/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution6.java))  
 [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array)([sort/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution3.java))  
 [1002. 查找常用字符](https://leetcode-cn.com/problems/find-common-characters)([unclassify/Solution25](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution25.java))  
 [1024. 视频拼接](https://leetcode-cn.com/problems/video-stitching)([unclassify/Solution28](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution28.java))  
