@@ -3,7 +3,7 @@ package sort;
 import java.util.Arrays;
 
 // https://leetcode-cn.com/problems/sort-an-array/
-// 8 ms/47.1MB
+//
 // 快排，基准为指定范围数组的中位元素
 // 采用双指针，从数组两端向中心寻找需要交换的元素
 public class QuickSort {
@@ -12,78 +12,106 @@ public class QuickSort {
         quickSort(input, 0, input.length-1);
     }
 
-    // 快排，基准为指定范围数组的中位元素
-    // 采用双指针，从数组两端向中心寻找需要交换的元素
-    private void quickSort(int[] input, int left, int right) {
-        // 指定范围的中间值
-        int mid = left+(right-left)/2;
-        // 定义双指针，从数组两端向中间遍历
-        for(int l=left, r=right; l<r;) {
-            // 双指针未到达中位数时
-            if(l < mid && r > mid) {
-                // 左指针元素 大于 中位数元素 且 右指针元素 小于等于 中位数元素时
-                if(input[l] > input[mid] && input[r] <= input[mid]) {
-                    // 交换左右指针元素
-                    swap(input, l, r);
-                    // 两指针向中心移动
-                    l++;
-                    r--;
-                }else if(input[l] > input[mid] && input[r] > input[mid]) { // 左指针元素 大于 中位数元素 且 右指针元素 大于 中位数元素时
-                    // 右指针向中心移动
-                    r--;
-                }else if(input[l] <= input[mid] && input[r] > input[mid]) { // 左指针元素 小于等于 中位数元素 且 右指针元素 大于 中位数元素时
-                    // 两指针向中心移动
-                    l++;
-                    r--;
-                }else if(input[l] <= input[mid] && input[r] <= input[mid]) { // 左指针元素 小于等于 中位数元素 且 右指针元素 小于等于 中位数元素时
-                    // 左指针向中心移动
-                    l++;
-                }
-            }else if(l == mid) { // 左指针到达中位数时
-                if(input[r] <= input[mid]) { // 右指针元素小于等于中位数元素(需要交换)
-                    // 左右指针未相邻时
-                    if(l+1 < r) {
-                        // 交换中位数位置元素 与 中位数+1位置元素
-                        swap(input, l, l+1);
-                    }
-                    // 交换左右指针位置元素
-                    swap(input, l, r);
-                    // 中位数右移
-                    mid++;
-                    // 左指针右移
-                    l++;
-                }else { // 右指针元素大于中位数元素(无需交换)
-                    // 右指针向中心移动
-                    r--;
-                }
-            }else if(r == mid) { // 右指针到达中位数时
-                if(input[l] > input[mid]) { // 左指针元素大于中位数元素(需要交换)
-                    // 左右指针未相邻时
-                    if(r-1 > l) {
-                        // 交换中位数位置元素 与 中位数-1位置元素
-                        swap(input, r, r-1);
-                    }
-                    // 交换左右指针位置元素
-                    swap(input, l, r);
-                    // 中位数左移
-                    mid--;
-                    // 右指针左移
-                    r--;
-                }else { // 左指针元素小于等于中位数元素(无需交换)
-                    // 左指针右移
-                    l++;
-                }
-            }
-        }
-        // left到mid-1范围内元素超过1个时
-        if(left < mid-1) {
-            quickSort(input, left, mid-1);
-        }
-        // mid+1到right范围内元素超过1个时
-        if(mid+1 < right) {
-            quickSort(input, mid+1, right);
-        }
+//    // 快排，基准为指定范围数组的中位元素
+//    // 采用双指针，从数组两端向中心寻找需要交换的元素
+//    // 8 ms/47.1MB
+//    private void quickSort(int[] input, int left, int right) {
+//        // 指定范围的中间值
+//        int mid = left+(right-left)/2;
+//        // 定义双指针，从数组两端向中间遍历
+//        for(int l=left, r=right; l<r;) {
+//            // 双指针未到达中位数时
+//            if(l < mid && r > mid) {
+//                // 左指针元素 大于 中位数元素 且 右指针元素 小于等于 中位数元素时
+//                if(input[l] > input[mid] && input[r] <= input[mid]) {
+//                    // 交换左右指针元素
+//                    swap(input, l, r);
+//                    // 两指针向中心移动
+//                    l++;
+//                    r--;
+//                }else if(input[l] > input[mid] && input[r] > input[mid]) { // 左指针元素 大于 中位数元素 且 右指针元素 大于 中位数元素时
+//                    // 右指针向中心移动
+//                    r--;
+//                }else if(input[l] <= input[mid] && input[r] > input[mid]) { // 左指针元素 小于等于 中位数元素 且 右指针元素 大于 中位数元素时
+//                    // 两指针向中心移动
+//                    l++;
+//                    r--;
+//                }else if(input[l] <= input[mid] && input[r] <= input[mid]) { // 左指针元素 小于等于 中位数元素 且 右指针元素 小于等于 中位数元素时
+//                    // 左指针向中心移动
+//                    l++;
+//                }
+//            }else if(l == mid) { // 左指针到达中位数时
+//                if(input[r] <= input[mid]) { // 右指针元素小于等于中位数元素(需要交换)
+//                    // 左右指针未相邻时
+//                    if(l+1 < r) {
+//                        // 交换中位数位置元素 与 中位数+1位置元素
+//                        swap(input, l, l+1);
+//                    }
+//                    // 交换左右指针位置元素
+//                    swap(input, l, r);
+//                    // 中位数右移
+//                    mid++;
+//                    // 左指针右移
+//                    l++;
+//                }else { // 右指针元素大于中位数元素(无需交换)
+//                    // 右指针向中心移动
+//                    r--;
+//                }
+//            }else if(r == mid) { // 右指针到达中位数时
+//                if(input[l] > input[mid]) { // 左指针元素大于中位数元素(需要交换)
+//                    // 左右指针未相邻时
+//                    if(r-1 > l) {
+//                        // 交换中位数位置元素 与 中位数-1位置元素
+//                        swap(input, r, r-1);
+//                    }
+//                    // 交换左右指针位置元素
+//                    swap(input, l, r);
+//                    // 中位数左移
+//                    mid--;
+//                    // 右指针左移
+//                    r--;
+//                }else { // 左指针元素小于等于中位数元素(无需交换)
+//                    // 左指针右移
+//                    l++;
+//                }
+//            }
+//        }
+//        // left到mid-1范围内元素超过1个时
+//        if(left < mid-1) {
+//            quickSort(input, left, mid-1);
+//        }
+//        // mid+1到right范围内元素超过1个时
+//        if(mid+1 < right) {
+//            quickSort(input, mid+1, right);
+//        }
+//
+//    }
 
+    // 快排
+    // 5ms/46MB
+    private void quickSort(int[] nums, int start, int end) {
+        int pos = start;
+        int temp = 0;
+        for(int i=start+1; i<=end; i++) {
+            if(nums[i] < nums[pos]) {
+                if(pos+1 < i) {
+                    temp = nums[pos+1];
+                    nums[pos+1] = nums[pos];
+                    nums[pos] = temp;
+                }
+                temp = nums[i];
+                nums[i] = nums[pos];
+                nums[pos] = temp;
+                pos++;
+            }
+            System.out.println(Arrays.toString(nums));
+        }
+        if(start < pos-1) {
+            quickSort(nums, start, pos-1);
+        }
+        if(pos+1 < end) {
+            quickSort(nums, pos+1, end);
+        }
     }
 
     private void swap(int[] input, int ori, int tar) {
