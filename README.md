@@ -78,6 +78,7 @@
 [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence)([unclassify/Solution7](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution7.java))  
 [402. 移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits)([stack/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution3.java))  
 [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves)([tree/Solution16](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution16.java))  
+[406. 根据身高重建队列](https://leetcode-cn.com/problems/queue-reconstruction-by-height)([sort/Solution9](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution9.java))  
 [415. 字符串相加](https://leetcode-cn.com/problems/add-strings)([unclassify/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution8.java))  
 [416. 分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum)([dp/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution12.java))  
 [459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern)([unclassify/Solution15](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution15.java))  
