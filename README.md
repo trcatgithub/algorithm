@@ -140,3 +140,4 @@
 简单的限流算法([unclassify/Solution33](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution33.java))  
 Map中数值加到10([thread/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/thread/Solution1.java))  
 爬台阶([unclassify/Solution35](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution35.java))  
+3个线程循环打印ABC([thread/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/thread/Solution2.java))  
