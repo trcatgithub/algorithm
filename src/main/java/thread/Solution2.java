@@ -14,9 +14,9 @@ public class Solution2 {
         Semaphore sc = new Semaphore(1);
         sb.acquire(1);
         sc.acquire(1);
-        ThreadDemoA ta = new Solution2().new ThreadDemoA(sa, sb);
-        ThreadDemoB tb = new Solution2().new ThreadDemoB(sb, sc);
-        ThreadDemoC tc = new Solution2().new ThreadDemoC(sc, sa);
+        ThreadDemo ta = new Solution2().new ThreadDemo(sa, sb, "A");
+        ThreadDemo tb = new Solution2().new ThreadDemo(sb, sc, "B");
+        ThreadDemo tc = new Solution2().new ThreadDemo(sc, sa, "C");
         ExecutorService pool = Executors.newFixedThreadPool(3);
         pool.execute(ta);
         pool.execute(tb);
@@ -28,15 +28,17 @@ public class Solution2 {
         pool.shutdown();
     }
 
-    class ThreadDemoA implements Runnable {
+    class ThreadDemo implements Runnable {
 
         private volatile boolean flag = true;
-        private Semaphore sa;
-        private Semaphore sb;
+        private Semaphore current;
+        private Semaphore next;
+        private String val;
 
-        public ThreadDemoA(Semaphore sa, Semaphore sb) {
-            this.sa = sa;
-            this.sb = sb;
+        public ThreadDemo(Semaphore current, Semaphore next, String val) {
+            this.current = current;
+            this.next = next;
+            this.val = val;
         }
 
         public void shutdown() {
@@ -45,69 +47,11 @@ public class Solution2 {
 
         @Override
         public void run() {
-            while(flag) {
+            while(this.flag) {
                 try {
-                    sa.acquire(1);
-                    System.out.print("A");
-                    sb.release(1);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
-
-    class ThreadDemoB implements Runnable {
-
-        private volatile boolean flag = true;
-        private Semaphore sb;
-        private Semaphore sc;
-
-        public ThreadDemoB(Semaphore sb, Semaphore sc) {
-            this.sb = sb;
-            this.sc = sc;
-        }
-
-        public void shutdown() {
-            this.flag = false;
-        }
-
-        @Override
-        public void run() {
-            while(flag) {
-                try {
-                    sb.acquire(1);
-                    System.out.print("B");
-                    sc.release(1);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
-
-    class ThreadDemoC implements Runnable {
-
-        private volatile boolean flag = true;
-        private Semaphore sc;
-        private Semaphore sa;
-
-        public ThreadDemoC(Semaphore sc, Semaphore sa) {
-            this.sc = sc;
-            this.sa = sa;
-        }
-
-        public void shutdown() {
-            this.flag = false;
-        }
-
-        @Override
-        public void run() {
-            while(flag) {
-                try {
-                    sc.acquire(1);
-                    System.out.println("C");
-                    sa.release(1);
+                    this.current.acquire(1);
+                    System.out.print(this.val);
+                    this.next.release();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
