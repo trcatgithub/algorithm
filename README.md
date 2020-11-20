@@ -53,6 +53,7 @@
 [143. 重排链表](https://leetcode-cn.com/problems/reorder-list)([list/Solution7](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution7.java))  
 [144. 二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal)([tree/Solution30](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution30.java))  
 [145. 二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal)([tree/Solution26](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution26.java))  
+[147. 对链表进行插入排序](https://leetcode-cn.com/problems/insertion-sort-list)([list/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution10.java))  
 [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted)([unclassify/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution4.java))  
 [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title)([unclassify/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution5.java))  
 [171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)([unclassify/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution6.java))  
