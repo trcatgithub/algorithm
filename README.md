@@ -64,6 +64,7 @@
 [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)([list/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution8.java))  
 [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)([tree/Solution23](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution23.java))  
 [236. 二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree)([tree/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution2.java))  
+[242. 有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram)([unclassify/Solution40](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution40.java))  
 [257. 二叉树的所有路径](https://leetcode-cn.com/problems/binary-tree-paths)([tree/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution11.java))  
 [283. 移动零](https://leetcode-cn.com/problems/move-zeroes)([sort/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution11.java))  
 [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)([dp/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution2.java))  
