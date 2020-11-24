@@ -60,6 +60,7 @@
 [171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)([unclassify/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution6.java))  
 [216. 组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii)([backtracking/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution5.java))  
 [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square)([dp/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution8.java))  
+[222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes)([tree/Solution34](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution34.java))  
 [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree)([tree/Solution15](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution15.java))  
 [234. 回文链表](https://leetcode-cn.com/problems/palindrome-linked-list)([list/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution8.java))  
 [235. 二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)([tree/Solution23](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution23.java))  
