@@ -123,7 +123,7 @@
 [1024. 视频拼接](https://leetcode-cn.com/problems/video-stitching)([unclassify/Solution28](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution28.java))  
 [1025. 除数博弈](https://leetcode-cn.com/problems/divisor-game)([dp/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution6.java))  
 [1030. 距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order)([sort/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution10.java))  
-[1117. H2O 生成](https://leetcode-cn.com/problems/building-h2o)([thread/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/thread/Solution3.java))
+[1117. H2O 生成](https://leetcode-cn.com/problems/building-h2o)([thread/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/thread/Solution3.java))  
 [1122. 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array)([sort/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution8.java))  
 [1207. 独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences)([unclassify/Solution32](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution32.java))  
 [1300. 转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target)([unclassify/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution1.java))  
