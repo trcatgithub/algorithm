@@ -126,6 +126,7 @@
 [1030. 距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order)([sort/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution10.java))  
 [1117. H2O 生成](https://leetcode-cn.com/problems/building-h2o)([thread/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/thread/Solution3.java))  
 [1122. 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array)([sort/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution8.java))  
+[1195. 交替打印字符串](https://leetcode-cn.com/problems/fizz-buzz-multithreaded)([thread/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/thread/Solution4.java))  
 [1207. 独一无二的出现次数](https://leetcode-cn.com/problems/unique-number-of-occurrences)([unclassify/Solution32](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution32.java))  
 [1300. 转变数组后最接近目标值的数组和](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target)([unclassify/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution1.java))  
 [1356. 根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits)([sort/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution4.java))  
