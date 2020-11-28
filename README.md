@@ -93,6 +93,7 @@
 [459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern)([unclassify/Solution15](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution15.java))  
 [463. 岛屿的周长](https://leetcode-cn.com/problems/island-perimeter)([unclassify/Solution34](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution34.java))  
 [486. 预测赢家](https://leetcode-cn.com/problems/repeated-substring-pattern)([dp/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution10.java))  
+[493. 翻转对](https://leetcode-cn.com/problems/reverse-pairs)([sort/Solution13](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution13.java))  
 [501. 二叉搜索树中的众数](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree)([tree/Solution24](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution24.java))  
 [514. 自由之路](https://leetcode-cn.com/problems/freedom-trail)([dp/Solution14](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution14.java))  
 [529. 扫雷游戏](https://leetcode-cn.com/problems/minesweeper)([dfs/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution4.java))  
