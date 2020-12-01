@@ -8,6 +8,7 @@
 [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses)([stack/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution1.java))  
 [24. 两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs)([list/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution3.java))  
 [31. 下一个排列](https://leetcode-cn.com/problems/next-permutation)([unclassify/Solution38](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution38.java))  
+[34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array)([search/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution5.java))  
 [35. 搜索插入位置](https://leetcode-cn.com/problems/search-insert-position)([search/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution1.java))  
 [37. 解数独](https://leetcode-cn.com/problems/sudoku-solver)([backtracking/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution6.java))  
 [39. 组合总和](https://leetcode-cn.com/problems/combination-sum)([backtracking/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution3.java))  
