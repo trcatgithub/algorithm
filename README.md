@@ -60,6 +60,7 @@
 [167. 两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted)([unclassify/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution4.java))  
 [168. Excel表列名称](https://leetcode-cn.com/problems/excel-sheet-column-title)([unclassify/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution5.java))  
 [171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)([unclassify/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution6.java))  
+[204. 计数质数](https://leetcode-cn.com/problems/count-primes)([math/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution1.java))  
 [216. 组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii)([backtracking/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution5.java))  
 [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square)([dp/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution8.java))  
 [222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes)([tree/Solution34](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution34.java))  
