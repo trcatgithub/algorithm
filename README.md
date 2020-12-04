@@ -107,6 +107,7 @@
 [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings)([unclassify/Solution13](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution13.java))  
 [654. 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree)([tree/Solution17](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution17.java))  
 [657. 机器人能否返回原点](https://leetcode-cn.com/problems/robot-return-to-origin)([unclassify/Solution17](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution17.java))  
+[659. 分割数组为连续子序列](https://leetcode-cn.com/problems/split-array-into-consecutive-subsequences)([math/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution2.java))  
 [685. 冗余连接 II](https://leetcode-cn.com/problems/redundant-connection-ii)([graph/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/graph/Solution3.java))  
 [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings)([unclassify/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution11.java))  
 [701. 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree)([tree/Solution27](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution27.java))  
