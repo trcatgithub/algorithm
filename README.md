@@ -40,6 +40,7 @@
 [114. 二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list)([tree/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution5.java))  
 [116. 填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node)([tree/Solution29](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution29.java))  
 [117. 填充每个节点的下一个右侧节点指针 II](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node-ii)([tree/Solution25](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution25.java))  
+[118. 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle)([unclassify/Solution44](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution44.java))  
 [120. 三角形最小路径和](https://leetcode-cn.com/problems/triangle)([unclassify/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution3.java))  
 [122. 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)([dp/Solution13](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution13.java))  
 [127. 单词接龙](https://leetcode-cn.com/problems/word-ladder)([bfs/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/bfs/Solution1.java))  
