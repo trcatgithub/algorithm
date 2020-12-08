@@ -119,6 +119,7 @@
 [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones)([unclassify/Solution22](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution22.java))  
 [834. 树中距离之和](https://leetcode-cn.com/problems/sum-of-distances-in-tree/)([tree/Solution32](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution32.java))  
 [841. 钥匙和房间](https://leetcode-cn.com/problems/flood-fill)([dfs/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution5.java))  
+[842. 将数组拆分成斐波那契序列](https://leetcode-cn.com/problems/split-array-into-fibonacci-sequence)([backtracking/Solution13](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution13.java))  
 [844. 比较含退格的字符串](https://leetcode-cn.com/problems/backspace-string-compare)([stack/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution2.java))  
 [845. 数组中的最长山脉](https://leetcode-cn.com/problems/longest-mountain-in-array)([unclassify/Solution29](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution29.java))  
 [861. 翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix)([math/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution4.java))  
