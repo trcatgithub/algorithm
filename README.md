@@ -64,6 +64,7 @@
 [171. Excel表列序号](https://leetcode-cn.com/problems/excel-sheet-column-number)([unclassify/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution6.java))  
 [204. 计数质数](https://leetcode-cn.com/problems/count-primes)([math/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution1.java))  
 [216. 组合总和 III](https://leetcode-cn.com/problems/combination-sum-iii)([backtracking/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution5.java))  
+[217. 存在重复元素](https://leetcode-cn.com/problems/contains-duplicate)([search/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution6.java))  
 [221. 最大正方形](https://leetcode-cn.com/problems/maximal-square)([dp/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution8.java))  
 [222. 完全二叉树的节点个数](https://leetcode-cn.com/problems/count-complete-tree-nodes)([tree/Solution34](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution34.java))  
 [226. 翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree)([tree/Solution15](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution15.java))  
