@@ -23,6 +23,9 @@ package math;
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 public class Solution7 {
 
+    // 从后向前，每次取2位
+    // 当高位大于低位时
+    // 先将低位变成0，再用这个数字减1
     public int monotoneIncreasingDigits(int N) {
         int i = 1;
         int res = N;
