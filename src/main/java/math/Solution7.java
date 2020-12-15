@@ -22,49 +22,61 @@ package math;
 //链接：https://leetcode-cn.com/problems/monotone-increasing-digits
 //著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 public class Solution7 {
-    // 贪心
-    // 从前向后遍历，寻找第一个波峰。
-    // 从波峰向前遍历，寻找位置pos ((int)cs[pos]-1 >= cs[pos-1])
-    // 将位置pos之后的数字都变成9
-    // 1ms/35.5MB
+
     public int monotoneIncreasingDigits(int N) {
-        char[] cs = String.valueOf(N).toCharArray();
-        int res = 0;
-        int pos = -1;
-        // 寻找波峰，根据波峰寻找位置pos
-        for(int i=0; i<cs.length-1; i++) {
-            if(cs[i] > cs[i+1]) {
-                if(i == 0) {
-                    cs[i] = (char)((int)cs[i]-1);
-                    pos = i+1;
-                }else if((int)cs[i]-1 >= cs[i-1]) {
-                    cs[i] = (char)((int)cs[i]-1);
-                    pos = i+1;
-                }else {
-                    for(int j=i-1; j>=0; j--) {
-                        if(j == 0 || (int)cs[j]-1 >= cs[j-1]) {
-                            cs[j] = (char)((int)cs[j]-1);
-                            pos = j+1;
-                            break;
-                        }
-                    }
-                }
-                break;
-            }
-        }
-        // 补9
-        if(pos >= 0) {
-            for(int i=pos; i<cs.length; i++) {
-                cs[i] = '9';
-            }
-        }
-        // 将字符数组转换为数字
-        for(int i=cs.length-1, base=1; i>=0; i--) {
-            res+= (cs[i]-'0')*base;
-            base*= 10;
+        int i = 1;
+        int res = N;
+        while(i <= res/10) {
+            int n = res / i % 100; // 每次取两个位
+            i *= 10;
+            if(n/10 > n%10) // 比较的高一位大于底一位
+                res = res / i * i - 1; //例如1332 循环第一次变为1330-1=1329 第二次变为1300-1=1299
         }
         return res;
     }
+//    // 贪心
+//    // 从前向后遍历，寻找第一个波峰。
+//    // 从波峰向前遍历，寻找位置pos ((int)cs[pos]-1 >= cs[pos-1])
+//    // 将位置pos之后的数字都变成9
+//    // 1ms/35.5MB
+//    public int monotoneIncreasingDigits(int N) {
+//        char[] cs = String.valueOf(N).toCharArray();
+//        int res = 0;
+//        int pos = -1;
+//        // 寻找波峰，根据波峰寻找位置pos
+//        for(int i=0; i<cs.length-1; i++) {
+//            if(cs[i] > cs[i+1]) {
+//                if(i == 0) {
+//                    cs[i] = (char)((int)cs[i]-1);
+//                    pos = i+1;
+//                }else if((int)cs[i]-1 >= cs[i-1]) {
+//                    cs[i] = (char)((int)cs[i]-1);
+//                    pos = i+1;
+//                }else {
+//                    for(int j=i-1; j>=0; j--) {
+//                        if(j == 0 || (int)cs[j]-1 >= cs[j-1]) {
+//                            cs[j] = (char)((int)cs[j]-1);
+//                            pos = j+1;
+//                            break;
+//                        }
+//                    }
+//                }
+//                break;
+//            }
+//        }
+//        // 补9
+//        if(pos >= 0) {
+//            for(int i=pos; i<cs.length; i++) {
+//                cs[i] = '9';
+//            }
+//        }
+//        // 将字符数组转换为数字
+//        for(int i=cs.length-1, base=1; i>=0; i--) {
+//            res+= (cs[i]-'0')*base;
+//            base*= 10;
+//        }
+//        return res;
+//    }
 
     public static void main(String[] args) {
         System.out.println(new Solution7().monotoneIncreasingDigits(10)); // 9
