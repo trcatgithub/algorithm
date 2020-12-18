@@ -90,6 +90,7 @@
 [349. 两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays)([search/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution4.java))  
 [376. 摆动序列](https://leetcode-cn.com/problems/wiggle-subsequence)([math/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution6.java))  
 [381. O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode-cn.com/problems/insert-delete-getrandom-o1-duplicates-allowed)([structure/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/structure/Solution1.java))  
+[389. 找不同](https://leetcode-cn.com/problems/find-the-difference)([search/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution8.java))  
 [392. 判断子序列](https://leetcode-cn.com/problems/is-subsequence)([unclassify/Solution7](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution7.java))  
 [402. 移掉K位数字](https://leetcode-cn.com/problems/remove-k-digits)([stack/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution3.java))  
 [404. 左叶子之和](https://leetcode-cn.com/problems/sum-of-left-leaves)([tree/Solution16](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution16.java))  
