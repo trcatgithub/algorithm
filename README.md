@@ -78,6 +78,7 @@
 [283. 移动零](https://leetcode-cn.com/problems/move-zeroes)([sort/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution11.java))  
 [290. 单词规律](https://leetcode-cn.com/problems/word-pattern)([search/Solution7](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution7.java))  
 [309. 最佳买卖股票时机含冷冻期](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)([dp/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution2.java))  
+[316. 去除重复字母](https://leetcode-cn.com/problems/remove-duplicate-letters)([stack/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution5.java))  
 [322. 零钱兑换](https://leetcode-cn.com/problems/coin-change)([dp/Solution9](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution9.java))  
 [327. 区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum)([sort/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution5.java))  
 [328. 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list)([list/Solution9](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution9.java))  
