@@ -52,6 +52,7 @@
 [130. 被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions)([dfs/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution2.java))  
 [133. 克隆图](https://leetcode-cn.com/problems/clone-graph)([graph/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/graph/Solution1.java))  
 [134. 加油站](https://leetcode-cn.com/problems/gas-station)([unclassify/Solution39](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution39.java))  
+[135. 分发糖果](https://leetcode-cn.com/problems/candy)([math/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution8.java))  
 [139. 单词拆分](https://leetcode-cn.com/problems/word-break)([dp/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution4.java))  
 [140. 单词拆分 II](https://leetcode-cn.com/problems/word-break-ii)([backtracking/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution12.java))  
 [141. 环形链表](https://leetcode-cn.com/problems/linked-list-cycle)([list/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution5.java))  
