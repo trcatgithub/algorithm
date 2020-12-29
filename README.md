@@ -87,6 +87,7 @@
 [327. 区间和的个数](https://leetcode-cn.com/problems/count-of-range-sum)([sort/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution5.java))  
 [328. 奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list)([list/Solution9](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution9.java))  
 [329. 矩阵中的最长递增路径](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix)([dfs/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution1.java))  
+[330. 按要求补齐数组](https://leetcode-cn.com/problems/patching-array)([math/Solution9](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution9.java))  
 [332. 重新安排行程](https://leetcode-cn.com/problems/reconstruct-itinerary)([graph/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/graph/Solution2.java))  
 [336. 回文对](https://leetcode-cn.com/problems/palindrome-pairs)([unclassify/Solution9](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution9.java))  
 [337. 打家劫舍 III](https://leetcode-cn.com/problems/house-robber-iii)([tree/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution6.java))  
