@@ -155,6 +155,7 @@
 [1024. 视频拼接](https://leetcode-cn.com/problems/video-stitching)([unclassify/Solution28](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution28.java))  
 [1025. 除数博弈](https://leetcode-cn.com/problems/divisor-game)([dp/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution6.java))  
 [1030. 距离顺序排列矩阵单元格](https://leetcode-cn.com/problems/matrix-cells-in-distance-order)([sort/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution10.java))  
+[1046. 最后一块石头的重量](https://leetcode-cn.com/problems/last-stone-weight)([sort/Solution17](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution17.java))  
 [1081. 不同字符的最小子序列](https://leetcode-cn.com/problems/smallest-subsequence-of-distinct-characters)([stack/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/stack/Solution4.java))  
 [1117. H2O 生成](https://leetcode-cn.com/problems/building-h2o)([thread/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/thread/Solution3.java))  
 [1122. 数组的相对排序](https://leetcode-cn.com/problems/relative-sort-array)([sort/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution8.java))  
