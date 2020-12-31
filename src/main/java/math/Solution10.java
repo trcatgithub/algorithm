@@ -38,6 +38,7 @@ public class Solution10 {
 
     // 贪心策略，先计算最多能组成的不重叠区间个数，
     // 然后用区间总个数减去不重叠区间的个数。
+    // 3ms/38.6MB
     public int eraseOverlapIntervals(int[][] intervals) {
         if (intervals.length == 0) {
             return 0;
@@ -57,5 +58,14 @@ public class Solution10 {
             count++;
         }
         return intervals.length - count;
+    }
+
+    public static void main(String[] args) {
+        int[][] intervals = new int[][]{{1,2},{2,3},{3,4},{1,3}};
+        System.out.println(new Solution10().eraseOverlapIntervals(intervals)); // 1
+        intervals = new int[][]{{1,2},{2,3},{3,4},{1,3}};
+        System.out.println(new Solution10().eraseOverlapIntervals(intervals)); // 1
+        intervals = new int[][]{{1,2},{2,3}};
+        System.out.println(new Solution10().eraseOverlapIntervals(intervals)); // 0
     }
 }
