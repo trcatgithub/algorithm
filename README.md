@@ -119,6 +119,7 @@
 [530. 二叉搜索树的最小绝对差](https://leetcode-cn.com/problems/minimum-absolute-difference-in-bst)([tree/Solution28](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution28.java))  
 [538. 把二叉搜索树转换为累加树](https://leetcode-cn.com/problems/convert-bst-to-greater-tree)([tree/Solution18](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution18.java))  
 [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)([unclassify/Solution18](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution18.java))  
+[605. 种花问题](https://leetcode-cn.com/problems/can-place-flowers)([unclassify/Solution47](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution47.java))  
 [617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees)([tree/Solution20](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution20.java))  
 [621. 任务调度器](https://leetcode-cn.com/problems/task-scheduler)([math/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution3.java))  
 [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree)([tree/Solution14](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution14.java))  
