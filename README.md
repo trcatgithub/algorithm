@@ -26,7 +26,8 @@
 [75. 颜色分类](https://leetcode-cn.com/problems/sort-colors)([unclassify/Solution21](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution21.java))   
 [77. 组合](https://leetcode-cn.com/problems/combinations)([backtracking/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution2.java))  \
 [78. 子集](https://leetcode-cn.com/problems/subsets)([backtracking/Solution8](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/backtracking/Solution8.java))  
-[79. 单词搜索](https://leetcode-cn.com/problems/word-search)([dfs/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution6.java))  \
+[79. 单词搜索](https://leetcode-cn.com/problems/word-search)([dfs/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution6.java))  \  
+[86. 分隔链表](https://leetcode-cn.com/problems/partition-list)([list/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/list/Solution12.java))  
 [93. 复原IP地址](https://leetcode-cn.com/problems/restore-ip-addresses)([unclassify/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution10.java))  
 [94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal)([tree/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution10.java))  
 [95. 不同的二叉搜索树 II](https://leetcode-cn.com/problems/unique-binary-search-trees-ii)([tree/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution3.java))  
