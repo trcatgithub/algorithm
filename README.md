@@ -129,6 +129,7 @@
 [605. 种花问题](https://leetcode-cn.com/problems/can-place-flowers)([unclassify/Solution47](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution47.java))  
 [617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees)([tree/Solution20](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution20.java))  
 [621. 任务调度器](https://leetcode-cn.com/problems/task-scheduler)([math/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution3.java))  
+[628. 三个数的最大乘积](https://leetcode-cn.com/problems/palindromic-substrings)([unclassify/Solution49](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution49.java))  
 [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree)([tree/Solution14](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution14.java))  
 [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings)([unclassify/Solution13](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution13.java))  
 [649. Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate)([bfs/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/bfs/Solution2.java))  
