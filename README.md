@@ -163,6 +163,7 @@
 [973. 最接近原点的 K 个点](https://leetcode-cn.com/problems/k-closest-points-to-origin)([sort/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution6.java))  
 [976. 三角形的最大周长](https://leetcode-cn.com/problems/largest-perimeter-triangle)([sort/Solution14](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution14.java))  
 [977. 有序数组的平方](https://leetcode-cn.com/problems/squares-of-a-sorted-array)([sort/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution3.java))  
+[989. 数组形式的整数加法](https://leetcode-cn.com/problems/add-to-array-form-of-integer)([unclassify/Solution50](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution50.java))  
 [1002. 查找常用字符](https://leetcode-cn.com/problems/find-common-characters)([unclassify/Solution25](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution25.java))  
 [1018. 可被 5 整除的二进制前缀](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5)([math/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution12.java))  
 [1024. 视频拼接](https://leetcode-cn.com/problems/video-stitching)([unclassify/Solution28](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution28.java))  
