@@ -141,6 +141,7 @@
 [696. 计数二进制子串](https://leetcode-cn.com/problems/count-binary-substrings)([unclassify/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution11.java))  
 [701. 二叉搜索树中的插入操作](https://leetcode-cn.com/problems/insert-into-a-binary-search-tree)([tree/Solution27](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution27.java))  
 [714. 买卖股票的最佳时机含手续费](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)([dp/Solution16](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution16.java))  
+[724. 寻找数组的中心索引](https://leetcode-cn.com/problems/find-pivot-index)([unclassify/Solution51](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution51.java))  
 [733. 图像渲染](https://leetcode-cn.com/problems/flood-fill)([dfs/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dfs/Solution3.java))  
 [738. 单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits)([math/Solution7](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution7.java))  
 [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs)([dp/Solution17](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution17.java))  
