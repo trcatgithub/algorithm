@@ -131,6 +131,7 @@
 [621. 任务调度器](https://leetcode-cn.com/problems/task-scheduler)([math/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution3.java))  
 [628. 三个数的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-three-numbers)([unclassify/Solution49](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution49.java))  
 [637. 二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree)([tree/Solution14](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution14.java))  
+[643. 子数组最大平均数 I](https://leetcode-cn.com/problems/maximum-average-subarray-i)([unclassify/Solution53](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution53.java))  
 [647. 回文子串](https://leetcode-cn.com/problems/palindromic-substrings)([unclassify/Solution13](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution13.java))  
 [649. Dota2 参议院](https://leetcode-cn.com/problems/dota2-senate)([bfs/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/bfs/Solution2.java))  
 [654. 最大二叉树](https://leetcode-cn.com/problems/maximum-binary-tree)([tree/Solution17](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution17.java))  
