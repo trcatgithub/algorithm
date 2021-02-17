@@ -128,6 +128,7 @@
 [547. 省份数量](https://leetcode-cn.com/problems/number-of-provinces)([graph/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/graph/Solution5.java))  
 [557. 反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii)([unclassify/Solution18](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution18.java))  
 [561. 数组拆分 I](https://leetcode-cn.com/problems/array-partition-i)([sort/Solution19](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution19.java))  
+[566. 重塑矩阵](https://leetcode-cn.com/problems/reshape-the-matrix)([unclassify/Solution55](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution55.java))  
 [567. 字符串的排列](https://leetcode-cn.com/problems/permutation-in-string)([window/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/window/Solution3.java))  
 [605. 种花问题](https://leetcode-cn.com/problems/can-place-flowers)([unclassify/Solution47](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution47.java))  
 [617. 合并二叉树](https://leetcode-cn.com/problems/merge-two-binary-trees)([tree/Solution20](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution20.java))  
