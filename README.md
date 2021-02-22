@@ -152,6 +152,7 @@
 [738. 单调递增的数字](https://leetcode-cn.com/problems/monotone-increasing-digits)([math/Solution7](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution7.java))  
 [746. 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs)([dp/Solution17](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution17.java))  
 [763. 划分字母区间](https://leetcode-cn.com/problems/partition-labels)([unclassify/Solution27](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution27.java))  
+[766. 托普利茨矩阵](https://leetcode-cn.com/problems/toeplitz-matrix)([window/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/window/Solution5.java))  
 [767. 重构字符串](https://leetcode-cn.com/problems/reorganize-string)([sort/Solution16](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution16.java))  
 [771. 宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones)([unclassify/Solution22](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution22.java))  
 [830. 较大分组的位置](https://leetcode-cn.com/problems/positions-of-large-groups)([search/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution11.java))  
