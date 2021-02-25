@@ -163,6 +163,7 @@
 [845. 数组中的最长山脉](https://leetcode-cn.com/problems/longest-mountain-in-array)([unclassify/Solution29](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution29.java))  
 [860. 柠檬水找零](https://leetcode-cn.com/problems/lemonade-change)([math/Solution5](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution5.java))  
 [861. 翻转矩阵后的得分](https://leetcode-cn.com/problems/score-after-flipping-matrix)([math/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution4.java))  
+[867. 转置矩阵](https://leetcode-cn.com/problems/transpose-matrix)([unclassify/Solution56](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution56.java))  
 [888. 公平的糖果棒交换](https://leetcode-cn.com/problems/fair-candy-swap)([unclassify/Solution52](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution52.java))  
 [912. 排序数组](https://leetcode-cn.com/problems/sort-an-array)(sort/([HeapSort](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/HeapSort.java)/[MergeSort](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/MergeSort.java)/[QuickSort](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/QuickSort.java))))  
 [922. 按奇偶排序数组 II](https://leetcode-cn.com/problems/sort-array-by-parity-ii)([sort/Solution7](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution7.java))  
