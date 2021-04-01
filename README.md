@@ -176,6 +176,7 @@
 [989. 数组形式的整数加法](https://leetcode-cn.com/problems/add-to-array-form-of-integer)([unclassify/Solution50](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution50.java))  
 [1002. 查找常用字符](https://leetcode-cn.com/problems/find-common-characters)([unclassify/Solution25](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution25.java))  
 [1004. 最大连续1的个数 III](https://leetcode-cn.com/problems/max-consecutive-ones-iii)([window/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/window/Solution4.java))  
+[1006. 笨阶乘](https://leetcode-cn.com/problems/clumsy-factorial)([unclassify/Solution57](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution57.java))  
 [1018. 可被 5 整除的二进制前缀](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5)([math/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/math/Solution12.java))  
 [1024. 视频拼接](https://leetcode-cn.com/problems/video-stitching)([unclassify/Solution28](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution28.java))  
 [1025. 除数博弈](https://leetcode-cn.com/problems/divisor-game)([dp/Solution6](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution6.java))  
