@@ -115,6 +115,7 @@
 [454. 四数相加 II](https://leetcode-cn.com/problems/4sum-ii)([unclassify/Solution43](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution43.java))  
 [455. 分发饼干](https://leetcode-cn.com/problems/assign-cookies)([unclassify/Solution46](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution46.java))  
 [459. 重复的子字符串](https://leetcode-cn.com/problems/repeated-substring-pattern)([unclassify/Solution15](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution15.java))  
+[461. 汉明距离](https://leetcode-cn.com/problems/hamming-distance)([bit/Solution2](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/bit/Solution2.java))  
 [463. 岛屿的周长](https://leetcode-cn.com/problems/island-perimeter)([unclassify/Solution34](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution34.java))  
 [485. 最大连续1的个数](https://leetcode-cn.com/problems/max-consecutive-ones)([unclassify/Solution54](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution54.java))  
 [486. 预测赢家](https://leetcode-cn.com/problems/repeated-substring-pattern)([dp/Solution10](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/dp/Solution10.java))  
@@ -193,8 +194,8 @@
 [1356. 根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits)([sort/Solution4](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/sort/Solution4.java))  
 [1365. 有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number)([unclassify/Solution30](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution30.java))  
 [1370. 上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string)([unclassify/Solution42](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/unclassify/Solution42.java))  
-[1379. 找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)([tree/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution12.java))
-[1738. 找出第 K 大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)([matrix/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/matrix/Solution1.java))
+[1379. 找出克隆二叉树中的相同节点](https://leetcode-cn.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree)([tree/Solution12](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/tree/Solution12.java))  
+[1738. 找出第 K 大的异或坐标值](https://leetcode-cn.com/problems/find-kth-largest-xor-coordinate-value/)([matrix/Solution11](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/matrix/Solution1.java))  
 
 [面试题 08.03. 魔术索引](https://leetcode-cn.com/problems/magic-index-lcci)([search/Solution3](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/search/Solution3.java))  
 [面试题 16.01. 交换数字](https://leetcode-cn.com/problems/swap-numbers-lcci)([bit/Solution1](https://github.com/trcatgithub/algorithm/blob/master/src/main/java/bit/Solution1.java))  
